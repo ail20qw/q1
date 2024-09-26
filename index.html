@@ -4,6 +4,49 @@
 
 
 
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #counter {
+            font-size: 2em;
+            color: #4CAF50;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Website Visitor Counter</h1>
+    <div id="counter">0</div>
+    <button onclick="incrementCounter()">Add Visitor</button>
+
+    <script>
+        let visitorCount = 0;
+
+        function incrementCounter() {
+            visitorCount++;
+            document.getElementById('counter').innerText = visitorCount;
+        }
+    </script>
+<h3>يبئ من تريخ 2024/9/27 </h3>
+
+
+
+
+   
+
    
     <LI>ail</LI>
     <li> Births2005</li>
